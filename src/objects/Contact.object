@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Age_Years__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( NOT( ISBLANK( Birthdate ) ) , 
+IF( DATE( 2000 , MONTH( Birthdate ) , DAY( Birthdate ) ) &lt;= DATE( 2000 , MONTH( TODAY() ) , DAY( TODAY() ) ), 
+YEAR (Today()) - YEAR ( Birthdate ), 
+YEAR (Today()) - YEAR ( Birthdate ) -1 ), 
+null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age (Years)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_1_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount 1 Year Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_2_Years_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount 2 Years Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_3_Years_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount 3 Years Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_4_Years_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount 4 Years Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_5_Years_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount 5 Years Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_Lifetime__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount Lifetime</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+</CustomObject>

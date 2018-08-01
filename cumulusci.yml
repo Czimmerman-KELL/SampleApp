@@ -1,0 +1,7 @@
+project:
+    name: SampleApp
+    package:
+        name:  sample App
+        api_version: '42.0'
+
+

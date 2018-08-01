@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sample App</fullName>
+    <types>
+        <members>Account.Average_Gift_Amount_1_Year_Ago__c</members>
+        <members>Account.Average_Gift_Amount_2_Years_Ago__c</members>
+        <members>Account.Average_Gift_Amount_3_Years_Ago__c</members>
+        <members>Account.Average_Gift_Amount_4_Years_Ago__c</members>
+        <members>Account.Average_Gift_Amount_5_Years_Ago__c</members>
+        <members>Account.Average_Gift_Amount_Lifetime__c</members>
+        <members>Account.DEN_Sprint__c</members>
+        <members>Contact.Age_Years__c</members>
+        <members>Contact.Average_Gift_Amount_1_Year_Ago__c</members>
+        <members>Contact.Average_Gift_Amount_2_Years_Ago__c</members>
+        <members>Contact.Average_Gift_Amount_3_Years_Ago__c</members>
+        <members>Contact.Average_Gift_Amount_4_Years_Ago__c</members>
+        <members>Contact.Average_Gift_Amount_5_Years_Ago__c</members>
+        <members>Contact.Average_Gift_Amount_Lifetime__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>42.0</version>
+</Package>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Average_Gift_Amount_1_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount 1 Year Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_2_Years_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount 2 Years Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_3_Years_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount 3 Years Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_4_Years_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount 4 Years Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_5_Years_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount 5 Years Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Average_Gift_Amount_Lifetime__c</fullName>
+        <externalId>false</externalId>
+        <label>Average Gift Amount Lifetime</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DEN_Sprint__c</fullName>
+        <externalId>false</externalId>
+        <label>DEN Sprint</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
